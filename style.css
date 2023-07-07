@@ -29,6 +29,8 @@ header .bg-img img {
 }
 header .nav-container {
   padding: 0 120px 0 90px !important;
+  max-width: 1400px;
+  margin: auto;
 }
 header .nav-container .content-box .logo {
   padding: 0;
@@ -225,6 +227,10 @@ header .header-text-box .btn2:hover {
   cursor: pointer;
 }
 
+.section-three .carousel {
+  max-width: 1400px;
+  margin: auto;
+}
 .section-three .carousel-indicators {
   position: absolute;
   bottom: -30px;
@@ -305,6 +311,8 @@ header .header-text-box .btn2:hover {
 .section-four .content-box {
   position: relative;
   padding: 0;
+  max-width: 1400px;
+  margin: auto;
 }
 .section-four .content-box .bg-img {
   width: 100%;
@@ -377,6 +385,8 @@ header .header-text-box .btn2:hover {
   border-top: 1px solid #502356;
   border-bottom: 1px solid #502356;
   padding-bottom: 85px;
+  max-width: 1400px;
+  margin: auto;
 }
 .section-six .content-box .card-link {
   margin-top: 105px;
@@ -504,6 +514,8 @@ footer .content-box a {
   padding-bottom: 85px;
   background-color: #090A26;
   margin-top: 130px;
+  max-width: 1400px;
+  margin: auto;
 }
 .mother-box .section-three .content-box .card-link {
   margin-top: 105px;
@@ -581,12 +593,6 @@ footer .content-box a {
   line-height: 21px;
   color: #000000;
 }
-.father-box .header-text-box input:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-}
 .father-box .header-text-box input::placeholder {
   font-weight: 400;
   font-size: 18px;
@@ -598,12 +604,6 @@ footer .content-box a {
   background-color: #EEEEEE;
 }
 .father-box .header-text-box textarea::-moz-placeholder {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-}
-.father-box .header-text-box textarea:-ms-input-placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
